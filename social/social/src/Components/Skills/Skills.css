@@ -1,0 +1,49 @@
+.hardSkillsIcon img{
+    width: 30px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 40%;
+    border: 2px solid black;
+}
+
+.hardSkillsIcon a{
+    display: block;
+    text-align: center;
+    font-family: cursive;
+}
+
+.hardSkillsTextContainer{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto 100px ;
+}
+
+.hardSkillsText a{
+    display: block;
+    margin: 20px 30px 20px 30px;
+}
+/*Soft skills*/
+.softSkillsIcon img{
+    width: 30px;
+    display: block;
+    margin: 10px auto ;
+    border-radius: 40%;
+    border: 2px solid black;
+}
+
+.softSkillsIcon a{
+    display: block;
+    text-align: center;
+    font-family: cursive;
+}
+
+.softSkillsTextContainer{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto 100px ;
+}
+
+.softSkillsText a{
+    display: block;
+    margin: 20px 30px 20px 30px;
+}

@@ -1,0 +1,17 @@
+.app-wrapper{
+  display: grid;
+  width: 1400px;
+  margin: 0 auto;
+  grid-template-areas: 
+    "header header"
+    "navigation mainW";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr 10fr ;
+  grid-gap: 10px;
+  /*background-color: aqua;*/
+}
+
+
+
+
+

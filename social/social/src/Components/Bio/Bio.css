@@ -1,0 +1,18 @@
+.bioIcon img{
+    width: 30px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 40%;
+    border: 2px solid black;
+}
+
+.bioTextContainer{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto 100px ;
+}
+
+.bioText a{
+    display: block;
+    margin: 20px 30px 20px 30px;
+}
