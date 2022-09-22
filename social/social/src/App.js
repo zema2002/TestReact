@@ -1,16 +1,24 @@
+import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
 import Content from './Components/Content/Content';
+import Dialogs from './Components/Dialogs/Dialogs';
 import Header from './Components/Header/Header';
 import Nav from './Components/Nav/Nav';
 
 
+
+
+
+
 function App() {
   return (
-    <div className='app-wrapper'>
-      <Header/>
-      <Nav/>
-      <Content/>
-    </div>
+    <BrowserRouter>
+      <div className='app-wrapper'>
+        <Header />
+        <Nav />
+        <Content/>
+      </div>
+    </BrowserRouter>
   );
 }
 

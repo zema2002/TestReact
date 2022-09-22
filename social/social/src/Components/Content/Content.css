@@ -1,72 +1,7 @@
-.content{
+ .content{
     grid-area: mainW;
-    display: subgrid;
-    grid-template-areas:
-    "avatarImg"
-    "name"
-    "bio"
-    "hardSkills"
-    "softSkills"
-    ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     background-color:bisque;
     border-radius: 10px;
     border: 2px solid black;
+    padding: 30px;
 }
-
-.content a{
-    margin: 5px 5px 5px 5px;
-}
-
-.contentImage_inner{
-    grid-area: avatarImg;
-}
-
-.contentName_inner{
-    grid-area: name;
-}
-
-.contentBio_inner{
-    grid-area: bio;
-    display: subgrid;
-    grid-template-areas:
-    "bioIcon"
-    "bioText";
-    grid-template-rows: 1fr 1fr ;
-}
-
-.bioIcon{
-    grid-area: bioIcon;
-}
-
-.bioTextContainer{
-    grid-area: bioText;
-}
-
-.contentSkills_inner{
-    grid-area: hardSkills;
-    display: subgrid;
-    grid-template-areas:
-    "Icon"
-    "Text"
-    "SoftIcon"
-    "SoftText";
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-}
-
-.hardSkillsIcon{
-    grid-area: Icon;
-}
-
-.hardSkillsTextContainer{
-    grid-area: Text;
-}
-
-.softSkillsIcon{
-    grid-area: SoftIcon;
-}
-
-.softSkillsTextContainer{
-    grid-area: SoftText;
-}
-
