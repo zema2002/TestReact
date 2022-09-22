@@ -6,11 +6,14 @@
     "header header"
     "navigation mainW";
   grid-template-columns: 200px 1fr;
-  grid-template-rows: 1fr 10fr ;
+  grid-template-rows: 100px 1fr ;
   grid-gap: 10px;
   /*background-color: aqua;*/
 }
 
+body{
+  background-color: #282828;
+}
 
 
 

@@ -6,10 +6,9 @@ import { NavLink } from "react-router-dom";
 function Nav() {
     return(
         <nav className="nav">
-        <NavLink to="/aboutInfo"><NavText item="Main"/></NavLink>
-        <NavLink to="/dialogs"><NavText item="Dialog"/></NavLink>
-        <NavText item="Item3"/>
-        </nav>
+        <NavLink to="/aboutInfo" className="navItem"><NavText item="About"/></NavLink>
+        <NavLink to="/dialogs" className="navItem"><NavText item="Dialog"/></NavLink>
+         </nav>
     )
 }
 

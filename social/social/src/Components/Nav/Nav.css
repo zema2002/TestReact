@@ -1,6 +1,22 @@
 .nav{
     grid-area: navigation;
-    background-color: brown;
+    background-color: #ad9b79;
     border-radius: 10px;
     border: 2px solid black;
+    padding: 20px;
+    
 }
+
+
+.nav a{
+    text-decoration: none;
+    color:#0C0032
+}
+
+.nav a.active.navItem{
+    color:white;
+}
+
+
+
+

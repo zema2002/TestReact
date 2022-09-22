@@ -6,7 +6,7 @@ import Bio from "../Bio/Bio";
 import Skills from "../Skills/Skills";
 import { Route,Routes } from "react-router-dom";
 import AboutInfo from "./AboutInfo/AboutInfo";
-import Dialogs from "../Dialogs/Dialogs";
+import Dialog from "./Dialog/Dialog";
 
 
 
@@ -17,7 +17,7 @@ function Content(){
         <div className="content">
             <Routes>
                 <Route path="/aboutInfo" element={<AboutInfo/>}/>
-                <Route path="/dialogs" element={<Dialogs/>}/>
+                <Route path="/dialogs" element={<Dialog/>}/>
             </Routes>
          </div>
             
