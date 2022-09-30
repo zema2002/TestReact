@@ -7,10 +7,10 @@ import Skills from "../Skills/Skills";
 import { Route,Routes } from "react-router-dom";
 import AboutInfo from "./AboutInfo/AboutInfo";
 import Dialog from "./Dialog/Dialog";
+import Post from "../Test/Post/Post"
 
 
-
-function Content(){
+function Content(props){
     return(
         
        
@@ -18,6 +18,7 @@ function Content(){
             <Routes>
                 <Route path="/aboutInfo" element={<AboutInfo/>}/>
                 <Route path="/dialogs" element={<Dialog/>}/>
+                <Route path="/testPost" element={<Post postData={props.postData} addPost={props.addPost} updatePostText={props.updatePostText}/>}/>
             </Routes>
          </div>
             

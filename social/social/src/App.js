@@ -9,13 +9,13 @@ import Nav from './Components/Nav/Nav';
 
 
 
-function App() {
+function App(props) {
   return (
     <BrowserRouter>
       <div className='app-wrapper'>
         <Header />
         <Nav />
-        <Content/>
+        <Content postData={props.postData} addPost={props.addPost} updatePostText={props.updatePostText}/>
       </div>
     </BrowserRouter>
   );

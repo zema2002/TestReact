@@ -8,6 +8,7 @@ function Nav() {
         <nav className="nav">
         <NavLink to="/aboutInfo" className="navItem"><NavText item="About"/></NavLink>
         <NavLink to="/dialogs" className="navItem"><NavText item="Dialog"/></NavLink>
+        <NavLink to="/testPost" className="navItem"><NavText item="Post"/></NavLink>
          </nav>
     )
 }
