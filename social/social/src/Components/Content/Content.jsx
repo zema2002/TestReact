@@ -18,7 +18,7 @@ function Content(props){
             <Routes>
                 <Route path="/aboutInfo" element={<AboutInfo/>}/>
                 <Route path="/dialogs" element={<Dialog/>}/>
-                <Route path="/testPost" element={<Post postData={props.postData} addPost={props.addPost} updatePostText={props.updatePostText}/>}/>
+                <Route path="/testPost" element={<Post postData={props.postData} dispatch={props.dispatch}/>}/>
             </Routes>
          </div>
             

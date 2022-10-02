@@ -15,7 +15,7 @@ function App(props) {
       <div className='app-wrapper'>
         <Header />
         <Nav />
-        <Content postData={props.postData} addPost={props.addPost} updatePostText={props.updatePostText}/>
+        <Content postData={props.postData} dispatch={props.dispatch}/>
       </div>
     </BrowserRouter>
   );
